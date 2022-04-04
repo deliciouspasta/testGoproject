@@ -21,7 +21,7 @@ services:
 
 
   frontend:
-    image: nuxt/frontend:1.0
+    image: vue/frontend:1.0
     build: ./frontend
     container_name: frontend
     # command: bash -c "cd /app && sh start.sh && /bin/bash"
